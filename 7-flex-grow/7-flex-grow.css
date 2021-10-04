@@ -1,0 +1,30 @@
+.flex-container{
+    display: flex;
+    border: 2px solid;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.item{
+    background-color: orangered;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.fg-0{
+    flex-grow: 0;
+}
+
+.fg-1{
+    flex-grow: 1;
+}
+
+.fg-2{
+    flex-grow: 2;
+}
+
+.fg-3{
+    flex-grow: 3;
+}
